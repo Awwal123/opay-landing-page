@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Public Sans', sans-serif;
+    font-size: 20px;
+}
+.wrapper {
+    width: 420px;
+    min-height: 100vh;
+    display: block;
+    margin: 0 auto;
+    background-color: hsl(240, 50%, 98%);
+    /* background-color: rgb(29, 201, 155);; */
+}
+.head {
+ padding: 20px;
+}
+.profile {
+    width: 35px;
+    border-radius: 100%;
+    float: left;
+}
+h3{
+    display: inline;
+    margin-left: 10px;
+}
+.icons {
+    display: inline;
+}
+.fa-headphones {
+    width: 30px;
+    margin-left: 110px;
+}
+.fa-expand {
+    width: 30px;
+}
+.first-art {
+    width: 380px;
+    height: 100px;
+    background-color: rgb(20, 212, 161);
+    color: hsl(0, 0%, 100%);
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 200;
+    padding: 15px;
+    margin-top: 20px;
+}
+.tran {
+    margin-bottom: 25px;
+}
+.transaction {
+    margin-left: 60px;  
+    padding-bottom: 60px;
+}
+.naira {
+    display: inline;
+}  
+h5 {
+    display: inline;
+    font-size: 20px;
+}
+.add {
+    color: rgb(20, 212, 161);
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 18px;
+    padding: 12px;
+    margin-left: 150px;
+}
+.second-art {
+    width: 380px;
+    height: 100px;
+    background-color: hsl(0, 0%, 100%);
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 200;
+    padding: 15px 20px;
+    margin-top: 20px;
+}
+.to-opay {
+   display: flex;
+   flex-direction: column;
+   float: left;
+   margin-top: 10px;
+  
+}
+.opay {
+    background-color: rgb(161, 243, 221);
+    border-radius: 15px;  
+    width: 35px; 
+}
+.bank {
+    width: 35px;
+}
+.withdraw {
+    width: 35px;
+}
+.containers {
+    position: absolute;
+    left: 45%;
+}
+.containerss {
+    position: absolute;
+    right: 6%;
+}
+.desc {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+}
