@@ -40,7 +40,7 @@ h3{
 .first-art {
     width: 380px;
     height: 100px;
-    background-color: rgb(20, 212, 161);
+    background-color: hsla(159, 65%, 44%, 0.984);
     color: hsl(0, 0%, 100%);
     display: block;
     margin: auto;
@@ -62,7 +62,7 @@ h3{
 }  
 h5 {
     display: inline;
-    font-size: 20px;
+    font-size: 23px;
 }
 .add {
     color: rgb(20, 212, 161);
@@ -80,26 +80,26 @@ h5 {
     border-radius: 10px;
     font-size: 14px;
     font-weight: 200;
-    padding: 15px 20px;
+    padding: 15px 25px;
     margin-top: 20px;
 }
 .to-opay {
    display: flex;
    flex-direction: column;
    float: left;
-   margin-top: 10px;
-  
+   margin-top: 10px; 
 }
 .opay {
-    background-color: rgb(161, 243, 221);
-    border-radius: 15px;  
-    width: 35px; 
+    margin-top: -10px;  
+    width: 50px; 
 }
 .bank {
-    width: 35px;
+    width: 50px;
+    margin-top: -10px;
 }
 .withdraw {
-    width: 35px;
+    width: 50px;
+    margin-top: -10px;
 }
 .containers {
     position: absolute;
@@ -107,10 +107,87 @@ h5 {
 }
 .containerss {
     position: absolute;
-    right: 6%;
+    right: 6.5%;
 }
 .desc {
-    font-size: 12px;
+    font-size: 15px;
     text-align: center;
     margin-top: 10px;
+    
+}
+.third-art {
+    width: 380px;
+    height: 200px;
+    background-color: hsl(0, 0%, 100%);
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 200;
+    padding: 15px 25px;
+    margin-top: 20px;
+}
+.airtime {
+    width: 50px;
+
+}
+.data {
+    width: 50px;
+}
+#data {
+    position: absolute;
+    left: 35%; 
+    /* margin-top: -px; */
+}
+.bet {
+    width: 50px;
+}
+#betting {
+    position: absolute;
+    left: 58%;
+}
+#Tv {
+    position: absolute;
+    right: 6.5%; 
+}
+.tv {
+    width: 50px;
+}
+#wealth {
+    position: absolute;
+    bottom: 30%;
+}
+.wealth {
+    width: 50px;
+    
+}
+#refer {
+    position: absolute;
+    left: 35%; 
+    bottom: 30%;
+}
+.refer {
+    width: 50px;
+}
+#play {
+    position: absolute;
+    left: 58%; 
+    bottom: 30%;
+}
+.play {
+    width: 50px;
+}
+#more {
+    position: absolute;
+    right: 6.5%;
+    bottom: 30%;
+}
+.more {
+    width: 50px;
+     
+}
+.descs {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 8px;
 }
