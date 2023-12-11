@@ -6,6 +6,11 @@
 body {
     font-family: 'Public Sans', sans-serif;
     font-size: 20px;
+    display: flex; /* new */
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 .wrapper {
     width: 420px;
@@ -126,6 +131,7 @@ h5 {
     font-weight: 200;
     padding: 15px 25px;
     margin-top: 20px;
+
 }
 .airtime {
     width: 50px;
@@ -134,53 +140,26 @@ h5 {
 .data {
     width: 50px;
 }
-#data {
-    position: absolute;
-    left: 35%; 
-    /* margin-top: -px; */
-}
+
 .bet {
     width: 50px;
 }
-#betting {
-    position: absolute;
-    left: 58%;
-}
-#Tv {
-    position: absolute;
-    right: 6.5%; 
-}
+
 .tv {
     width: 50px;
 }
-#wealth {
-    position: absolute;
-    bottom: 30%;
-}
+
 .wealth {
     width: 50px;
     
 }
-#refer {
-    position: absolute;
-    left: 35%; 
-    bottom: 30%;
-}
+
 .refer {
     width: 50px;
 }
-#play {
-    position: absolute;
-    left: 58%; 
-    bottom: 30%;
-}
+
 .play {
     width: 50px;
-}
-#more {
-    position: absolute;
-    right: 6.5%;
-    bottom: 30%;
 }
 .more {
     width: 50px;
@@ -191,3 +170,22 @@ h5 {
     text-align: center;
     margin-top: 8px;
 }
+.article-two {
+    display: flex; /*new*/
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            max-width: 800px; /* Adjust as needed */
+            margin: 0 auto;
+}
+.image-container{
+    width: calc(25% - 5px); /* Adjust the width based on your needs, subtracting margin */
+    height: calc(50% - 5px); /* Adjust the height based on your needs, subtracting margin */
+    margin: 5px; /* Adjust the margin based on your needs */
+    text-align: center;
+}
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Optional: Maintain aspect ratio and cover container */
+  }
